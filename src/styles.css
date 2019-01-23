@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./src/pattern.png");
+}
+
+.main {
+  background: rgb(2, 22, 34);
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.badge {
+  width: 96px;
+  background: #0677ac;
+  color: rgb(0, 19, 41);
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 40%;
+}
+
+.clock {
+  background: #86a5d4;
+  text-align: center;
+  font-size: 50px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: "Cinzel", serif;
+  border-radius: 4px;
+}

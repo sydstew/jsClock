@@ -1,2 +1,0 @@
-# jsClock
-Created with CodeSandbox
